@@ -4,12 +4,12 @@ import java.util.Date;
 public class MovieTicket {
 
     int price;
-    Date date;
-    Time time;
+    String date;
+    String time;
     String movie;
-    int cinemaHall;
+    String cinemaHall;
 
-    public MovieTicket(int price, Date date, Time time, String movie, int cinemaHall){
+    public MovieTicket(int price, String date, String time, String movie, String cinemaHall){
         this.price = price;
         this.date = date;
         this.time = time;
