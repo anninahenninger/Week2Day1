@@ -24,29 +24,15 @@ public class A002_BankAccount {
 
     public static void main(String[] args){
 
-        BankAccount bankAccount1 = new BankAccount(2000);
+        BankAccount bankAccount1 = new BankAccount(3000);
         BankAccount bankAccount2 = new BankAccount(1000000);
         BankAccount bankAccount3 = new BankAccount(50000);
 
-        bankAccount1.addMoney(2000);
-        bankAccount1.withdrawMoney(50);
+
+
+        bankAccount1.withdrawMoney(200);
         bankAccount1.printBalance();
-
-        bankAccount2.withdrawMoney(500000);
-        bankAccount2.printBalance();
-
-        bankAccount3.addMoney(15000);
-        bankAccount3.printBalance();
-
-        bankAccount1.withdrawMoney(2500);
-        bankAccount1.printBalance();
-        bankAccount1.withdrawMoney(1460);
-        bankAccount1.printBalance();
-
-        bankAccount2.addMoney(200);
-        bankAccount2.printBalance();
-        bankAccount2.withdrawMoney(150);
-        bankAccount2.printBalance();
+        System.out.println(bankAccount1.balance);
 
 
     }

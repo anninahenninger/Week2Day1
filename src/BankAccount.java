@@ -21,14 +21,16 @@ public class BankAccount {
 
     public void withdrawMoney(double money){
 
+
         if(this.balance < money) {
             System.out.println("You can not withdrawl more money than your current balance wich is " + this.balance);
-            this.balance = 0;
+            //this.balance = 0;
         }
 
         else {
             this.balance -= money;
-            System.out.println("The amount of " + money + " has been withdrawled from your bank account. Your new balance is " + this.balance);
+            //this.balance = this.balance - money;
+            System.out.println("The amount of " + money + " has been withdrew from your bank account. Your new balance is " + this.balance);
         }
     }
 

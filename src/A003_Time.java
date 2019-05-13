@@ -23,6 +23,46 @@ public class A003_Time {
         Time t3 = new Time(7,11,23);
         Time t4 = new Time(0,55,34);
 
+
+       /* t1.printTime();
+        t1.addSeconds(2);
+        t1.printTime();
+        t1.addSeconds(2);
+        t1.printTime();
+        t1.addSeconds(2);
+        t1.printTime();
+
+        */
+        Time t5 = new Time(1, 2, 3);
+       t5.printTime();
+       t5.addSeconds(121);
+       t5.printTime();
+
+
+/*
+        int seconds = 15;
+        int second = seconds % 60;
+        int minute = seconds / 60;
+
+        System.out.println("Minutes: " + minute + " Seconds: " + second);
+
+     */
+
+
+/*
+        Time[] times = {t1, t2, t3, t4};
+
+        for(int i = 0; i < times.length; i++) {
+            times[i].printTime();
+        }
+
+        Date d1 = new Date(13, 11, 1990);
+        Date d2 = new Date(16, 2, 82);
+        Date d3 = new Date(29, 3, 78);
+
+        d1.printDate();
+       */
+
         
     }
 }
