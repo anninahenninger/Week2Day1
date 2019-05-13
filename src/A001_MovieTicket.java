@@ -20,5 +20,7 @@ public class A001_MovieTicket {
 
     public static void main(String[] args){
 
+        MovieTicket m1 = new MovieTicket("20", "2020/02/13", "20:00", "The Grinch", "A2");
+
     }
 }
